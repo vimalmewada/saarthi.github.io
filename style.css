@@ -141,8 +141,30 @@
     align-items: center;
     height: 215px;
     margin-top: -80px;
-    margin-right: 5px;
+    margin-right: -60px;
 }
 .i{
     color: green;
 }
+
+ .card-slider {
+      display: flex;
+      overflow-x: auto;
+      scrollbar-width: none; /* Hide scrollbar for Firefox */
+      -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
+    }
+
+    .card {
+      width: 300px;
+    margin-right: -20px;
+    margin-bottom: 25px;
+    margin-left: 66px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+    }
