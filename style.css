@@ -82,7 +82,7 @@
     
     main .left-sec{
      padding-left: 100px;
-    padding-top: 155px;
+    padding-top: 200px;
 
     }
     
@@ -117,7 +117,6 @@
 }
 .cards{
     display: flex;
-
     position: absolute;
     width: 100%;
     justify-content: space-around;
@@ -139,7 +138,10 @@
     font-size: 50px;
 }
 .image{
-  align-items: center;
+    align-items: center;
+    height: 215px;
+    margin-top: -80px;
+    margin-right: 5px;
 }
 .i{
     color: green;
