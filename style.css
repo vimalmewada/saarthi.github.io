@@ -2,21 +2,22 @@
     margin: 0; padding: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #d1e3cf;
+    background-color: #dbe9d9;
     }
     
     header{
      width: 100%;
-     height: 600px;
+     height: 520px;
      background-image: url('../images/bg.png');
      background-repeat: no-repeat;
      background-size: 100% 100%;
+
     }
      .nav{
         padding-left: 230px;
      }
      #head{
-        padding-left: 25px;
+        padding-left: 40px;
 
      }
     
@@ -44,6 +45,7 @@
      display: flex;
      justify-content: space-around;
      align-items: center;
+     font-size: 18px;
     }
     
     .mainheader nav a{
@@ -54,14 +56,15 @@
     }
     
     .menubtn{
-     margin-right: 60px;
+     margin-left: 100px;
+     margin-right: 25px;
         color: green;
     }
     .mainheader button{
     
     padding: 10px 45px;
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     color: #fff;
     border: none;
     background-image: linear-gradient(to right,#568951,#568951,#568951);
@@ -71,7 +74,7 @@
     
     
     main{
-     width: 100%;
+     width: 95%;
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -84,31 +87,33 @@
     
     main .left-sec{
      padding-left: 100px;
-    padding-top: 200px;
+    padding-top: 160px;
+
 
     }
     
     .left-sec h2{
-     font-size: 1.0rem;
+     font-size: 1.5rem;
      font-family: PT Serif sans-serif;
      color: #709184;
      margin-top: 75px;
     }
     
     .left-sec h1{
-     font-size: 38px;
+     font-size: 60px;
      font-family: "libre Franklin" sans-serif ;
      margin: 15px 0;
     }
     
     .left-sec p{
      margin-bottom: 20px;
+     font-size: 20px;
     }
     
     .left-sec button{
      padding: 15px 45px;
      text-align: center;
-     font-size: 14px;
+     font-size: 20px;
      color: #fff;
      border: none;
      background-image: linear-gradient(to right,#95B494,#95B494,#95B494);
@@ -124,25 +129,73 @@
     height: 215px;
     margin-top: -80px;
     margin-right: -60px;
+    padding-top: 20px;
 }
 
 
 
 
     .cards{
-        height: 600px;
+        height: 2px;
         width: 100%;
 /*        background-color: yeelow;*/
         display: flex;
         flex-direction: row;
         justify-content: space-around;
 /*        margin-bottom: 800px;*/
+        margin-left: 10px;
+        align-items: center;
+        padding-left: 20px;
+        padding-top: 120px;
     }
     .card{
-        height: 200px;
-        width: 300px;
-/*        background-color: orange 
+        height: 160px;
+        width: 500px;
+/*      background-color: orange */
+        padding: 40px;
+        margin: 10px;
         font-size:20px;
-        border-radius: 20px;
-
+        border-radius: 22px;
+        border: 0px solid black;
+        background-color: white;
     }
+
+.card h2{
+    background-color: white;
+    font-family: sans-serif;
+   /* text-align: center;*/
+   padding-left: 60px;
+     font-size: 28px;
+     margin-top: -60px;
+}
+.card p{
+   background-color: white;
+    font-family: sans-serif;
+   padding-left: 60px;
+   padding-top: 3px;
+    font-size: 16px;
+    color: #9599A7;
+}
+#middle{
+    
+       background-image: linear-gradient(to right,#95B494,#95B494,#95B494);
+
+}
+#middle h2{
+    background-color: transparent;
+    color: white;
+
+}
+#middle p{
+    background-color: transparent;
+    color: white;
+
+}
+.card img{
+    width: 50px;
+    height: 60px;
+    background-color: transparent;
+}
+#icon1{
+    background-color: transparent;
+}
